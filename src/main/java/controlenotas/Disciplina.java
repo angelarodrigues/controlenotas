@@ -8,7 +8,7 @@ public class Disciplina {
     private int semestre;
     private int cargahoraria;
 
-    public void adicionaDisciplina() {
+    public void criaDisciplina() {
 
     }
 }

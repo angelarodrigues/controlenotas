@@ -1,5 +1,7 @@
 package controlenotas;
 
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,4 +19,8 @@ public class Aluno extends Pessoa {
 	super(cod, nome);
     }
 
+    @Override
+    public String toString() {
+	return ReflectionToStringBuilder.toString(this);
+    }
 }

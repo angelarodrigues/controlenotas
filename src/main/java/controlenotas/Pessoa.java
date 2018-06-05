@@ -2,21 +2,29 @@ package controlenotas;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
-import lombok.Getter;
-
 public abstract class Pessoa {
-    @Getter
+
     private final int cod;
-    @Getter
+
     private final String nome;
 
     /**
+     * Construtor de pessoa
+     *
      * @param cod
      * @param nome
      */
     public Pessoa(final int cod, final String nome) {
 	this.cod = cod;
 	this.nome = nome;
+    }
+
+    public int getCod() {
+	return this.cod;
+    }
+
+    public String getNome() {
+	return this.nome;
     }
 
     @Override
