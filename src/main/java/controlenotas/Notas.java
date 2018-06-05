@@ -1,16 +1,18 @@
 package controlenotas;
 
-import java.util.Scanner;
-
 public class Notas {
-    private int[] notas;
-
-    Scanner scan = new Scanner(System.in);
-
-    public void lerNotas(final Disciplina disciplina, final int quantidade) {
-	for (int i = 0; i < quantidade; i++) {
-	    System.out.println("Informe a " + i + "ª nota: ");
-	    this.notas[i] = this.scan.nextInt();
-	}
-    }
+public int n1;
+  public int n2;
+  public int n3;
+  
+  
+  public int result(int n1, int n2, int n3){
+    return n1+n2+n2/3;
+    
+  
+    ]
+    
+  
+  
+  
 }
